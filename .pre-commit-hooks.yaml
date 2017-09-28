@@ -1,6 +1,6 @@
 -   id: cci-validate
     name: 'circleci config validate'
     entry: cci-validate.sh
-    files: '\.circleci/config\.yaml$'
+    files: '\.circleci/config\.ya?ml$'
     language: 'script'
     description: "Runs `circleci config validate`, requires circleci cli"
